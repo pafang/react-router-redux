@@ -9,7 +9,7 @@ import {
 import routerMiddleware from './middleware'
 
 
-export default {
+export {
   syncHistoryWithStore,
   LOCATION_CHANGE,
   routerReducer,

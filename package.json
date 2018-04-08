@@ -18,7 +18,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npm run build:commonjs & npm run build:umd & npm run build:umd:min",
-    "build:commonjs": "mkdir -p lib && babel ./src -d lib",
+    "build:commonjs": "mkdir -p lib && babel ./src -d next-lib",
     "build:umd": "webpack dist/ReactRouterRedux.js",
     "build:umd:min": "NODE_ENV=production webpack dist/ReactRouterRedux.min.js",
     "lint": "eslint examples src test",
