@@ -11,7 +11,10 @@
     "src"
   ],
   "homepage": "https://github.com/pafang/react-router-redux",
-  "repository": "https://github.com/pafang/react-router-redux.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pafang/react-router-redux.git"
+  },
   "authors": [
     "James Long",
     "Tim Dorr"
