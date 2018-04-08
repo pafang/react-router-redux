@@ -10,7 +10,8 @@
     "lib",
     "src"
   ],
-  "repository": "reactjs/react-router-redux",
+  "homepage": "https://github.com/pafang/react-router-redux",
+  "repository": "https://github.com/pafang/react-router-redux.git",
   "authors": [
     "James Long",
     "Tim Dorr"
