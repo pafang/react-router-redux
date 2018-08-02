@@ -1,5 +1,5 @@
 {
-  "name": "react-router-redux-ie-2",
+  "name": "react-router-redux-ie2",
   "version": "4.0.8",
   "description": "Ruthlessly simple bindings to keep react-router and redux in sync",
   "main": "lib/index",
@@ -32,8 +32,7 @@
     "test:cov": "npm run test:cov:browser && npm run test:cov:node && npm run test:cov:report",
     "test:cov:node": "babel-node $(npm bin)/isparta cover $(npm bin)/_mocha report --dir ./coverage/node-coverage -- --recursive ./test/node",
     "test:cov:browser": "COVERAGE=true karma start",
-    "test:cov:report": "$(npm bin)/istanbul report --dir ./coverage --include **/*coverage.json html text",
-    "prepublish": "npm run build"
+    "test:cov:report": "$(npm bin)/istanbul report --dir ./coverage --include **/*coverage.json html text"
   },
   "tags": [
     "react",
